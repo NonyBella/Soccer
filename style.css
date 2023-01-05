@@ -1,0 +1,65 @@
+.first-nav,.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.google{
+    height: 30px;
+    width: 92px;
+}
+.sub-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 600px;
+    margin-left: 50px;
+    border: 3px solid rgb(248, 248, 248);
+    border-radius: 50px;
+}
+.sub-nav-items{
+  display: flex;
+  align-items: center;  
+    
+}
+.input{
+border: none;
+outline: none;    
+}
+.close{
+    border-right: 1px solid rgb(226, 220, 220);
+    padding: 5px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.account{
+    border-radius: 50px;
+}
+
+.img{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+}
+.second-nav{
+    display: flex;
+    max-width: 750px;
+    justify-content: space-between;
+}
+.second-nav-child{
+    display: flex;
+    gap: 15px;
+    margin-left: 25%;
+}
+.second-nav-child>span{
+  display: flex;
+  align-items: center;
+}
+.second-nav-child >:first-child{
+    border-bottom: 4px solid #1a73e8;
+}
+section{
+    border-bottom: 1px solid rgb(238, 233, 233);
+}
