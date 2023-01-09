@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <section>
-       <div class="first-nav">
+    <div class="sticky-top-nav">
+        <div class="first-nav">
             <div class="nav">
                 <img class="google" src="./images/googlelogo.png" alt="logo">
                 <div class="sub-nav">
@@ -20,33 +22,35 @@
                         <img class="img" src="./images/camera.svg" alt="">
                         <img class="img" src="./images/search.svg" alt="search">
                     </div>
-                    
+
                 </div>
             </div>
             <div>
                 <a title="Quick settings" href="#">
                     <img class="img" src="./images/setting.svg" alt="">
                 </a>
-                <a  title="Google map" href="#">
+                <a title="Google map" href="#">
                     <img class="img" src="./images/maps.svg" alt="">
                 </a>
                 <a title="Account setting" href="">
                     <img class="account" src="./images/account.png" alt="">
                 </a>
             </div>
-       </div>
-       <div class="second-nav">
-           <div class="second-nav-child">
+        </div>
+    </div>
+    <section class="first-section">
+        <div class="second-nav">
+            <div class="second-nav-child">
                 <span>
                     <img src="./images/search.svg" alt="">
-                    <a href="#">All</a>
+                    <a href="#" class="active">All</a>
                 </span>
                 <span>
-                    <img style="height:24px; width:24px;" src="./images/menu.svg" alt="">
+                    <img class="second-nav-img" src="./images/menu.svg" alt="">
                     <a href="#">News</a>
                 </span>
                 <span>
-                    <img style="height:24px;width:24px;" src="./images/images.svg" alt="">
+                    <img class="second-nav-img" src="./images/image.svg" alt="">
                     <a href="#">Images</a>
                 </span>
                 <span>
@@ -57,13 +61,729 @@
                     <img src="./images/more.svg" alt="">
                     <a href="#">More</a>
                 </span>
-           </div>
-           
-           <div>
-               <span>Tools</span>
-           </div>
-       </div>
-   </section>
+            </div>
+
+            <div>
+                <span>Tools</span>
+            </div>
+        </div>
+
+    </section>
+    <main class="main-content">
+        <section class="third-nav-sec">
+            <p>About 239,000,000 results (0.72 seconds)</p>
+            <div class="third-nav">
+                <div class="third-nav-section">
+                    <img class="small-img" src="./images/ronaldonav.jpg" alt="">
+                    <div class="third-nav-text">
+                        <p>Cristiano Ronaldo</p>
+                        <span>Portuguese footballer</span>
+                        <img src="./images/more.svg" alt="">
+                    </div>
+                </div>
+                <div class="div-button">
+                    <button>Overview</button>
+                    <button>News</button>
+                    <button>Stats</button>
+                    <button>Videos</button>
+                </div>
+            </div>
+        </section>
+        <section class="wrapper">
+            <section class="first-sec-wrapper">
+                <section>
+                    <div class="wrapper-pix">
     
+                        <div>
+                            <a href="">
+                                <img class="wrapper-pix-img" src="./images/ronaldo.jpg" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="./images/ronaldo1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="./images/Ronaldo2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="image-tile-1">
+                            <a href="#">
+                                <img class="wrapper-pix-img-2 " src="./images/ronaldo3.jpg" alt="">
+                            </a>
+    
+                            <span class="absolute">
+                                <a href="">
+                                    <img class="img" src="./images/images.svg" alt="">
+                                </a>
+                                <span>more images</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Top Stories</p>
+                        <p>
+                            <a href=""> News about Cristiano Ronaldo, Al-Nassr</a>
+                            <img class="img" src="./images/arrow.svg" alt="">
+                        </p>
+                    </div>
+                </section>
+                <div class="flex border-top margin-bottom">
+                    <div class="main-news">
+                        <img src="./images/fam.jpg" alt="">
+                        <div>
+                            <img src="./images/bar.png" alt="">
+                            <a href="#">
+                                <div>
+                                    Cristiano Ronaldo permitted to live width
+                                    girlfriend Georgina Rodriguez as Saudi...
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="news-tile">
+                            <div>
+                                <div>
+                                    <img src="/images/bar.png" />
+                                    <a href="">Cristiano Ronaldo's Al-Nassr unveiling got more views than the World Cup final</a>
+                                </div>
+                                <img src="/images/fam.jpg" />
+                            </div>
+                            <span>1 day ago</span>
+                        </div>
+                        <div class="news-tile border-top margin-top">
+                            <div>
+                                <div>
+                                    <img src="/images/bar.png" />
+                                    <a href="">Cristiano Ronaldo's Al-Nassr unveiling got more views than the World Cup final</a>
+                                </div>
+                                <img src="/images/fam.jpg" />
+                            </div>
+                            <span>1 day ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="margin-bottom">
+                    <h3 class="margin-top border-bottom">News about Cristiano Ronaldo, Man Utd</h3>
+                    <div class="flex">
+                        <div class="news-tile border-right margin-top">
+                            <div>
+                                <div>
+                                    <img src="/images/bar.png" />
+                                    <a href="">Cristiano Ronaldo's Al-Nassr unveiling got more views than the World Cup final</a>
+                                </div>
+                                <img src="/images/fam.jpg" />
+                            </div>
+                            <span>1 day ago</span>
+                        </div>
+                        <div class="news-tile margin-left margin-top">
+                            <div>
+                                <div>
+                                    <img src="/images/bar.png" />
+                                    <a href="">Cristiano Ronaldo's Al-Nassr unveiling got more views than the World Cup final</a>
+                                </div>
+                                <img src="/images/fam.jpg" />
+                            </div>
+                            <span>1 day ago</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="margin-bottom">
+                    <h3 class="margin-top border-bottom">Also in the news</h3>
+                    <div class="flex">
+                        <div class="news-tile border-right margin-top">
+                            <div>
+                                <div>
+                                    <img src="/images/bar.png" />
+                                    <a href="">Cristiano Ronaldo's Al-Nassr unveiling got more views than the World Cup final</a>
+                                </div>
+                                <img src="/images/fam.jpg" />
+                            </div>
+                            <span>1 day ago</span>
+                        </div>
+                        <div class="news-tile margin-left margin-top">
+                            <div>
+                                <div>
+                                    <img src="/images/bar.png" />
+                                    <a href="">Cristiano Ronaldo's Al-Nassr unveiling got more views than the World Cup final</a>
+                                </div>
+                                <img src="/images/fam.jpg" />
+                            </div>
+                            <span>1 day ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hr margin-bottom">
+                    <div></div>
+                    <span>
+                        See more <img src="./images/arrows.svg" />
+                    </span>
+                    <div></div>
+                </div>
+
+                <div class="post-tile">
+                    <div>
+                        <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                        <img src="/images/more.svg" />
+                    </div>
+                    <a>Cristiano Ronaldo - Wikipedia</a>
+                    <span>
+                        <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                        as a forward for Saudi Professional League club Al Nassr and...
+                    </span>
+                    <div>
+                        <small><a>Cristiano (surname)</a></small> <span>.</span>
+                        <small><a>Ronaldo (film)</a></small> <span>.</span>
+                        <small><a>Cristiano (given name)</a></small> <span>.</span>
+                        <small><a>Irina Shayk</a></small>
+                    </div>
+                </div>
+
+                <h2 class="video-info">Videos <img class="img" src="./images/arrow.svg" /></h2>
+
+                <div class="video-tile border-top margin-bottom">
+                    <div>
+                        <img src="/images/child.jpg" alt="" />
+                        <span class="summary">1:50</span>
+                    </div>
+                    <div>
+                        <a>Cristiano Ronaldo</a>
+                        <div>
+                            <span>
+                                <span>Youtube</span>
+                                <span>.</span>
+                                <span class="mute">ESPN FC</span>
+                            </span>
+                            <span class="mute">11 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-tile border-top margin-bottom">
+                    <div>
+                        <img src="/images/child.jpg" alt="" />
+                        <span class="summary">1:50</span>
+                    </div>
+                    <div>
+                        <a>Cristiano Ronaldo</a>
+                        <div>
+                            <span>
+                                <span>Youtube</span>
+                                <span>.</span>
+                                <span class="mute">ESPN FC</span>
+                            </span>
+                            <span class="mute">11 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-tile border-top margin-bottom">
+                    <div>
+                        <img src="/images/child.jpg" alt="" />
+                        <span class="summary">1:50</span>
+                    </div>
+                    <div>
+                        <a>Cristiano Ronaldo</a>
+                        <div>
+                            <span>
+                                <span>Youtube</span>
+                                <span>.</span>
+                                <span class="mute">ESPN FC</span>
+                            </span>
+                            <span class="mute">11 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hr margin-bottom margin-top">
+                    <div></div>
+                    <span>
+                        See more <img src="./images/arrows.svg" />
+                    </span>
+                    <div></div>
+                </div>
+
+                <div class="post-tile margin-bottom">
+                    <div>
+                        <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                        <img src="/images/more.svg" />
+                    </div>
+                    <a>Cristiano Ronaldo - Wikipedia</a>
+                    <span>
+                        <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                        as a forward for Saudi Professional League club Al Nassr and...
+                    </span>
+                </div>
+
+                <div class="post-tile margin-bottom">
+                    <div>
+                        <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                        <img src="/images/more.svg" />
+                    </div>
+                    <a>Cristiano Ronaldo - Wikipedia</a>
+                    <span>
+                        <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                        as a forward for Saudi Professional League club Al Nassr and...
+                    </span>
+                </div>
+                <div class="post-tile margin-bottom">
+                    <div>
+                        <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                        <img src="/images/more.svg" />
+                    </div>
+                    <a>Cristiano Ronaldo - Wikipedia</a>
+                    <span>
+                        <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                        as a forward for Saudi Professional League club Al Nassr and...
+                    </span>
+                </div>
+                <div class="post-tile margin-bottom">
+                    <div>
+                        <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                        <img src="/images/more.svg" />
+                    </div>
+                    <a>Cristiano Ronaldo - Wikipedia</a>
+                    <span>
+                        <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                        as a forward for Saudi Professional League club Al Nassr and...
+                    </span>
+                </div>
+                <div class="post-tile margin-bottom">
+                    <div>
+                        <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                        <img src="/images/more.svg" />
+                    </div>
+                    <a>Cristiano Ronaldo - Wikipedia</a>
+                    <span>
+                        <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                        as a forward for Saudi Professional League club Al Nassr and...
+                    </span>
+                </div>
+                <div class="post-tile margin-bottom">
+                    <div>
+                        <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                        <img src="/images/more.svg" />
+                    </div>
+                    <a>Cristiano Ronaldo - Wikipedia</a>
+                    <span>
+                        <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                        as a forward for Saudi Professional League club Al Nassr and...
+                    </span>
+                </div>
+                <div class="post-tile margin-bottom">
+                    <div>
+                        <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                        <img src="/images/more.svg" />
+                    </div>
+                    <a>Cristiano Ronaldo - Wikipedia</a>
+                    <span>
+                        <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                        as a forward for Saudi Professional League club Al Nassr and...
+                    </span>
+                </div>
+                <div class="post-tile margin-bottom">
+                    <div>
+                        <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                        <img src="/images/more.svg" />
+                    </div>
+                    <a>Cristiano Ronaldo - Wikipedia</a>
+                    <span>
+                        <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                        as a forward for Saudi Professional League club Al Nassr and...
+                    </span>
+                </div>
+                <div class="post-tile margin-bottom">
+                    <div>
+                        <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                        <img src="/images/more.svg" />
+                    </div>
+                    <a>Cristiano Ronaldo - Wikipedia</a>
+                    <span>
+                        <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                        as a forward for Saudi Professional League club Al Nassr and...
+                    </span>
+                </div>
+
+                <div class="post-with-image">
+                    <div class="post-tile">
+                        <div>
+                            <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                            <img src="/images/more.svg" />
+                        </div>
+                        <a>Cristiano Ronaldo - Wikipedia</a>
+                        <span>
+                            <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                            as a forward for Saudi Professional League club Al Nassr and...
+                        </span>
+                        <span class="post-info">
+                            <small>Net worth: $200M</small>
+                            <small>Net worth: $200M</small>
+                        </span>
+                    </div>
+                    <img src="./images/fam.jpg" alt="">
+                </div>
+
+                <div class="post-with-image">
+                    <div class="post-tile">
+                        <div>
+                            <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                            <img src="/images/more.svg" />
+                        </div>
+                        <a>Cristiano Ronaldo - Wikipedia</a>
+                        <span>
+                            <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                            as a forward for Saudi Professional League club Al Nassr and...
+                        </span>
+                        <span class="post-info">
+                            <small>Net worth: $200M</small>
+                        </span>
+                    </div>
+                    <img src="./images/fam.jpg" alt="">
+                </div>
+                
+                <div class="post-with-image">
+                    <div class="post-tile">
+                        <div>
+                            <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                            <img src="/images/more.svg" />
+                        </div>
+                        <a>Cristiano Ronaldo - Wikipedia</a>
+                        <span>
+                            <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                            as a forward for Saudi Professional League club Al Nassr and...
+                        </span>
+                        <span class="post-info">
+                            <small>Net worth: $200M</small>
+                        </span>
+                    </div>
+                    <img src="./images/fam.jpg" alt="">
+                </div>
+
+                <div class="post-tile margin-bottom">
+                    <div>
+                        <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                        <img src="/images/more.svg" />
+                    </div>
+                    <a>Cristiano Ronaldo - Wikipedia</a>
+                    <span>
+                        <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                        as a forward for Saudi Professional League club Al Nassr and...
+                    </span>
+                </div>
+                <div class="post-tile margin-bottom">
+                    <div>
+                        <small>https://en.wikipedia.org › wiki › Cristiano_Ronaldo</small>
+                        <img src="/images/more.svg" />
+                    </div>
+                    <a>Cristiano Ronaldo - Wikipedia</a>
+                    <span>
+                        <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays
+                        as a forward for Saudi Professional League club Al Nassr and...
+                    </span>
+                </div>
+
+                <h2 class="video-info border-bottom">Related Searches <img class="img" src="./images/more.svg" /></h2>
+
+                <div class="post-info">
+                    <span>Portugal Strikers</span>
+                    <img class="img" src="./images/arrow.svg" />
+                </div>
+
+                <div class="another-stars">
+                    <div class="image-info">
+                        <img src="/images/ronaldo4.jpg" />
+                        <a>Julius Berger</a>
+                    </div>
+                    <div class="image-info">
+                        <img src="/images/ronaldo4.jpg" />
+                        <a>Julius Berger</a>
+                    </div>
+                    <div class="image-info">
+                        <img src="/images/ronaldo4.jpg" />
+                        <a>Julius Berger</a>
+                    </div>
+                    <div class="image-info">
+                        <img src="/images/ronaldo4.jpg" />
+                        <a>Julius Berger</a>
+                    </div>
+                    <div class="image-info">
+                        <img src="/images/ronaldo4.jpg" />
+                        <a>Julius Berger</a>
+                    </div>
+                    <div class="image-info">
+                        <img src="/images/ronaldo4.jpg" />
+                        <a>Julius Berger</a>
+                    </div>
+                </div>
+
+                <div class="hr justify-center margin-bottom margin-top">
+                    <span>
+                        See more <img src="./images/arrows.svg" />
+                    </span>
+                </div>
+
+                <div class="another-stars border-top">
+                    <span>Real Madrid Strikers</span>
+                    <img class="img" src="./images/arrow.svg" />
+                </div>
+                <div class="another-stars border-top">
+                    <span>Portugal Roosters</span>
+                    <img class="img" src="./images/arrow.svg" />
+                </div>
+
+                <div class="hr margin-bottom margin-top">
+                    <div></div>
+                    <small>Feedback</small>
+                </div>
+
+
+                <div class="more-searches margin-bottom">
+                    <div class="hr">
+                        <span>
+                            <img src="./images/search.svg" /> Cristiano Ronaldo Jr
+                        </span>
+                    </div>
+                    <div class="hr">
+                        <span>
+                            <img src="./images/search.svg" /> Cristiano Ronaldo Jr
+                        </span>
+                    </div>
+                </div>
+
+                <div class="more-searches margin-bottom">
+                    <div class="hr">
+                        <span>
+                            <img src="./images/search.svg" /> Cristiano Ronaldo Jr
+                        </span>
+                    </div>
+                    <div class="hr">
+                        <span>
+                            <img src="./images/search.svg" /> Cristiano Ronaldo Jr
+                        </span>
+                    </div>
+                </div>
+                <div class="more-searches margin-bottom">
+                    <div class="hr">
+                        <span>
+                            <img src="./images/search.svg" /> Cristiano Ronaldo Jr
+                        </span>
+                    </div>
+                    <div class="hr">
+                        <span>
+                            <img src="./images/search.svg" /> Cristiano Ronaldo Jr
+                        </span>
+                    </div>
+                </div>
+                <div class="more-searches margin-bottom">
+                    <div class="hr">
+                        <span>
+                            <img src="./images/search.svg" /> Cristiano Ronaldo Jr
+                        </span>
+                    </div>
+                    <div class="hr">
+                        <span>
+                            <img src="./images/search.svg" /> Cristiano Ronaldo Jr
+                        </span>
+                    </div>
+                </div>
+
+                <div class="last-nav">
+                    <div>
+                        <div><img src="/images/googlelogo.png" alt=""/></div>
+                        <div class="more-clicks">
+                            <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="/images/arrow.svg" />
+                        </div>
+                        <div>
+                            Next
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="about">
+                    <h2>About</h2>
+                    <div>
+                        <a href="" class="nav-tile">
+                            <img class="img" src="./images/about.svg" alt="">
+                            <span>Cristianoronaldo.com</span>
+                        </a>
+                    </div>
+                    <div>
+                        <p>
+                            Cristiano Ronaldo dos Santos Aveiro GOIH ComM is a Portuguese
+                            professional footballer who plays as a forward for Saudi
+                            Professional League club Al Nassr and captains the Portugal national team.
+                            <a href="#">Wikipedia</a>
+                        </p>
+                        <p>
+                            <strong>Born:</strong>5 February 1985 (age 37 years),
+                            <a href="#">Hospital Dr.Nelio Mendonca, Funchal, Portugal </a>
+                        </p>
+                        <p>
+                            <strong>Children:</strong>
+                            <a href="#">
+                                <span>Cristiano Ronaldo jr.,</span>
+                                <span>Bella Esmeralda,</span>
+                                <span>Alana Martina dos Santos Aveiro,</span>
+                                <span>Eva Maria Dos Santos</span>
+                                <span>Mateo Ronaldo</span>
+                            </a>
+                        </p>
+                        <p>
+                            <strong>Current teams:</strong>
+                            <a href="#">Portugal national football team</a>
+                            <span>(#7/Forward),</span>
+                            <a href="#"> Al-Nassr FC</a>
+                            <span>(#7/Forward)</span>
+                        </p>
+                        <p>
+                            <strong>Dates joined:</strong>
+                            <span>2o23</span>
+                            <span>2022</span>
+                            <a href="#">(Al-Nassr FC), MORE8</a>
+                        </p>
+                        <p>
+                            <strong>Height:</strong>
+                            <span> 1.87 m</span>
+                        </p>
+                        <p>
+                            <strong>Salary:</strong>
+                            <span>62 million GBP (2023)</span>
+                        </p>
+                        <p>
+                            <strong>Awards: </strong>
+                            <a href="#">European Golden Shoe, Ballon d'Or Dream Team, MORE</a>
+                        </p>
+                    </div>
+                    <div class="nav-knowledge-info border-bottom">
+                        <a href="" class="nav-tile">
+                            <img class="img" src="./images/tick.svg" alt="">
+                            <span>Claim this knowledge panel</span>
+                        </a>
+                        <small>Feedback</small>
+                    </div>
+                    <div class="nav-space margin-bottom margin-top">
+                        <h3>Stats</h3>
+                        <img class="img" src="/images/arrow.svg" alt="" />
+                    </div>
+                    <span>Portugal</span>
+                    <div class="row-tile margin-top">
+                        <div><small>Leagues</small></div>
+                        <div><small>Matches</small></div>
+                        <div><small>Goals</small></div>
+                    </div>
+                    <div class="row-tile">
+                        <div><a>
+                            World Cup <br /> <small>2022</small>
+                        </a></div>
+                        <div><small>5</small></div>
+                        <div><small>1</small></div>
+                    </div>  
+                    <div class="row-tile">
+                        <div><a>
+                            World Cup Qualifiers<br /> <small>2021-22</small>
+                        </a></div>
+                        <div><small>9</small></div>
+                        <div><small>6</small></div>
+                    </div>  
+                    <div class="row-tile">
+                        <div><a>
+                            World Cup Qualifiers<br /> <small>2021-22</small>
+                        </a></div>
+                        <div><small>9</small></div>
+                        <div><small>6</small></div>
+                    </div>  
+                    <div class="row-tile">
+                        <div><a>
+                            World Cup Qualifiers<br /> <small>2021-22</small>
+                        </a></div>
+                        <div><small>9</small></div>
+                        <div><small>6</small></div>
+                    </div>  
+                    <div class="row-tile">
+                        <div><a>
+                            World Cup Qualifiers<br /> <small>2021-22</small>
+                        </a></div>
+                        <div><small>9</small></div>
+                        <div><small>6</small></div>
+                    </div>
+                    <h3>Profiles</h3> 
+                    
+                    <div class="social-media border-bottom">
+                        <div class="social-media-logo">
+                            <img src="/images/camera.svg" alt="">
+                            <span>Instagram</span>
+                        </div>
+                        <div class="social-media-logo">
+                            <img src="/images/camera.svg" alt="">
+                            <span>Instagram</span>
+                        </div>
+                        <div class="social-media-logo">
+                            <img src="/images/camera.svg" alt="">
+                            <span>Instagram</span>
+                        </div>
+                        <div class="social-media-logo">
+                            <img src="/images/camera.svg" alt="">
+                            <span>Instagram</span>
+                        </div>
+                    </div>
+
+                    <h3>People also searches for</h3>
+                    <div class="another-stars">
+                        <div class="image-info">
+                            <img src="/images/ronaldo4.jpg" />
+                            <a>Julius Berger</a>
+                        </div>
+                        <div class="image-info">
+                            <img src="/images/ronaldo4.jpg" />
+                            <a>Julius Berger</a>
+                        </div>
+                        <div class="image-info">
+                            <img src="/images/ronaldo4.jpg" />
+                            <a>Julius Berger</a>
+                        </div>
+                        <div class="image-info">
+                            <img src="/images/ronaldo4.jpg" />
+                            <a>Julius Berger</a>
+                        </div>
+                    </div> 
+                    <div class="hr">
+                        <span class="top-searches">
+                            See more <img src="./images/arrows.svg" />
+                        </span>
+                    </div>
+
+                </div>
+            </section>
+    
+        </section>
+    </main>
+
+    <div>
+        <div class="footer">
+            <span class="border-right">Nigeria</span>
+            <span>- <strong>Olowora, Lagos</strong> - <a> Based on your past activity</a></span>
+        </div>
+        <div class="footer border-top">
+            <span>- Update location</span>
+            <span>Help</span>
+            <span>Send feedback</span>
+            <span>Privacy</span>
+            <span>Terms</span>
+        </div>
+    </div>
 </body>
+
 </html>
