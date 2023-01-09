@@ -215,9 +215,7 @@ button {
     border-bottom-right-radius: 10px;
 }
 
-/* .first-sec-wrapper{
-     max-width: 1000px;
-}  */
+
 .about {
     width: 445px;
     font-size: 14px;
@@ -334,7 +332,7 @@ button {
 
 .news-tile a {
     text-decoration: none;
-    color: blue;
+    color:  #681da8;
 }
 
 .news-tile a:hover {
@@ -434,6 +432,8 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
+    min-width: 128px;
+    min-height: 128px;
     max-height: 180px;
     max-width: 150px;
 }
